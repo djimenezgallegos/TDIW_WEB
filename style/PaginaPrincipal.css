@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-oct-2014, 18:29:27
+    Author     : saund
+*/
+
+body{
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #cccccc
+}
+
+#general{
+    text-align: left;
+    width: auto;
+    margin: auto;
+}
+
+.imagenIzquierda{
+    width: 30%;
+    height: 30%;
+    clear: left;
+    margin-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 25px;
+    
+}
+
+.imagenDerecha{
+    width: 30%;
+    height: 30%;
+    float: right;
+    clear: right;
+    margin-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 25px;
+    
+}
+.section ul {
+    margin: 0 auto;
+    float: left;
+}
+
+
+
+#cabecera{
+    background: url('images/KTM_portada.jpg');
+    background-position:top;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    border: 0px solid gray;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 20px;
+}
+
+#estado{
+    border: 5px solid gray;
+    height: 50px;
+}
+#usuario{
+    text-align: right;
+    margin-right:5px;
+}
+
+#cuerpo{
+    margin:  0px;
+
+}
+#lateral{
+    width: 140px;
+    float: left;
+    border: 5px solid gray;
+    display: inline;
+}
+
+    
+}
+.Titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+#lateral ul{ 
+    margin : 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px; 
+    list-style: none; 
+    width:100%;
+} 
+#lateral li{
+    margin-top:10%;
+    margin-bottom:5%;
+   
+}
+#lateral li a{ 
+    background-color: #999999; 
+    margin-top: 2px 2px 2px 2px;      
+    padding: 5px 10px;
+    border: 2px solid gray;
+    padding-right: 20%;
+    color: white; 
+    text-decoration: none;
+    width: 100%;
+}
+#lateral li a:hover { border-color: #ccc; }  
+#main{
+    margin-left: 150px;
+    background-color: #cccccc; 
+    padding: 10px;  
+    
+    border: 5px solid gray;
+}
+
+#pie{
+    background-color: #cccccc; 
+    padding: 10px; 
+    text-align:right; 
+    clear: both;
+    border: 5px solid gray;
+    
+}
