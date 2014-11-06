@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-oct-2014, 18:29:27
+    Author     : saund
+*/
+
+body{
+    font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #cccccc
+}
+
+#general{
+    text-align: left;
+    width: auto;
+    margin: auto;
+}
+
+
+#cabecera{
+    background: url('images/KTM_portada.jpg');
+    background-position: center 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 0px solid gray;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+    font-size: 12pt;
+    font-weight: bold;
+    
+}
+
+#estado{
+    border: 5px solid gray;
+    height: 50px;
+}
+
+#cuerpo{
+    margin:  0px;
+}
+#lateral{
+    width: 140px;
+    border: 5px solid gray;
+    float: left;
+    
+}
+#Navegacion{
+    text-align: center;
+}
+#lateral ul{ 
+    margin : 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px; 
+    list-style: none; 
+} 
+#lateral li{ 
+    background-color: #999999; 
+    margin: 2px 2px 2px 2px; 
+    padding: 2px 2px 2px 2px; 
+
+   
+} 
+#lateral a{ 
+    color: #3333cc; 
+    text-decoration: none; 
+} 
+#main{
+    margin-left: 150px;
+    background-color: #cccccc; 
+    padding: 10px;  
+    
+    border: 5px solid gray;
+}
+
+#pie{
+    background-color: #cccccc; 
+    padding: 10px; 
+    text-align:right; 
+    clear: both;
+    border: 5px solid gray;
+    
+}
